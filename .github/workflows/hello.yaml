@@ -16,6 +16,5 @@ jobs:
     needs: greet
     runs-on: ubuntu-latest
     steps:
-      - run: eCho "Goodbye from ${COURSE}!"
+      - run: echo "Goodbye from ${COURSE}!"
       - run: ls -al
-      
